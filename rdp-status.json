@@ -1,26 +1,77 @@
 {
-  "storage": {
-    "boost": "ok",
-    "before_gb": 82.72,
-    "after_gb": 107.26,
-    "gained_gb": 24.54,
-    "estimated_freed_gb": 20,
-    "drives": [
-      {
-        "used_gb": 148.19,
-        "letter": "C",
-        "free_gb": 107.26,
-        "size_gb": 255.45
-      },
-      {
-        "used_gb": 2.98,
-        "letter": "D",
-        "free_gb": 147.02,
-        "size_gb": 150.0
-      }
-    ],
-    "game_dir": "D:\\Games (disarankan untuk GTA)",
-    "note": "Storage boost selesai. Android/Haskell/CodeQL/dotnet lama & cache dibersihkan. Sisa 70GB -> bisa jadi 110-140GB free."
+  "active": false,
+  "hostname": "rdpfree-11",
+  "os": "Microsoft Windows Server 2022 Datacenter",
+  "os_build": "10.0.20348",
+  "os_style": "Windows 10 look",
+  "rdp_port": 3389,
+  "rdp_user": "xyadmin",
+  "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
+  "rdp_denyts": true,
+  "started_at": "2026-10-11T04:36:30Z",
+  "expires_at": "2026-10-11T10:31:30Z",
+  "duration_menit": 355,
+  "run_id": "38111895425",
+  "run_number": "11",
+  "run_url": "https://github.com/IKKIsseff/Ikyy/actions/runs/38111895425",
+  "mode": "bersih+win10",
+  "win10": {
+    "look": "ok",
+    "badge": "ok",
+    "wallpaper": "ok",
+    "search": "ok",
+    "os": "Microsoft Windows Server 2022 Datacenter",
+    "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
   },
-  "stopped_at": "2026-10-11T04:23:12Z"
+  "xydesk": {
+    "host": "ok",
+    "denyts": "ok",
+    "multisession": "ok",
+    "avc444": "ok",
+    "fontsmoothing": "ok (ClearType profil Default)",
+    "audio_out": "ok (policy fDisableAudio=, WinStations=)",
+    "audio_mic": "ok (policy fDisableAudioCapture=, WinStations=0) - mic HP redirect aktif, Allow di HP",
+    "wallpaper_rdp": "ok (policy fNoRemoteDesktopWallpaper=) - wallpaper RDP tampil, cek client Experience→Wallpaper ON",
+    "firewall": "tcp3389=True udp3389=True udp4433=True",
+    "services": "ok",
+    "rdp_ready": "127.0.0.1 (handshake OK)",
+    "rdp_probe": "awal=True multi=True audio=True grafis=True clear=True fw=True svc=True",
+    "quic_udp4433": "dibuka di VM (tidak lewat tunnel TCP)",
+    "akses": "(menyusul)",
+    "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
+  },
+  "grafis": {
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
+    "mesa": "26.2.4",
+    "mode": "software",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "dir": "C:\\XyRDP\\grafis",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "debug": "",
+    "adapters": "Microsoft Hyper-V Video"
+  },
+  "extras": {
+    "lightshot": "skip",
+    "translucent": "ok",
+    "wallpaper": "ok",
+    "wallpaper_file": "wallpaper.jpg",
+    "vscode": "skip",
+    "notepadpp": "skip",
+    "admin": true
+  },
+  "akses": {
+    "tailscale": {
+      "status": "failed",
+      "note": "Installer Tailscale gagal, exit 1603",
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
+    },
+    "mode": "tailscale"
+  },
+  "stopped_at": "2026-10-11T04:37:12Z"
 }
