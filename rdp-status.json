@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-8",
+  "hostname": "rdpfree-9",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T03:56:36Z",
-  "expires_at": "2026-10-11T09:51:36Z",
+  "started_at": "2026-10-11T04:08:09Z",
+  "expires_at": "2026-10-11T10:03:09Z",
   "duration_menit": 355,
-  "run_id": "38109726642",
-  "run_number": "8",
-  "run_url": "https://github.com/IKKIsseff/Ikyy/actions/runs/38109726642",
+  "run_id": "38110357065",
+  "run_number": "9",
+  "run_url": "https://github.com/IKKIsseff/Ikyy/actions/runs/38110357065",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -41,17 +41,17 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
     "mesa": "26.2.4",
     "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
-    "dir": "C:\\XyRDP\\grafis",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "mode": "software",
     "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "adapters": "Microsoft Hyper-V Video",
     "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
-    "mode": "software",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "debug": "",
-    "adapters": "Microsoft Hyper-V Video"
+    "dir": "C:\\XyRDP\\grafis",
+    "debug": ""
   },
   "extras": {
     "lightshot": "skip",
@@ -73,5 +73,5 @@
     },
     "mode": "tailscale"
   },
-  "stopped_at": "2026-10-11T03:57:24Z"
+  "stopped_at": "2026-10-11T04:08:59Z"
 }
