@@ -251,6 +251,7 @@ jobs:
       timeout-minutes: 15
       shell: pwsh
       run: ./scripts/setup-akses.ps1
+      continue-on-error: trus 
     - name: Wallpaper dan mikrofon sesi pengguna
       shell: pwsh
       timeout-minutes: 5
