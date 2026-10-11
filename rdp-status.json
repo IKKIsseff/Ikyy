@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-11",
+  "hostname": "rdpfree-12",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T04:36:30Z",
-  "expires_at": "2026-10-11T10:31:30Z",
+  "started_at": "2026-10-11T04:43:59Z",
+  "expires_at": "2026-10-11T10:38:59Z",
   "duration_menit": 355,
-  "run_id": "38111895425",
-  "run_number": "11",
-  "run_url": "https://github.com/IKKIsseff/Ikyy/actions/runs/38111895425",
+  "run_id": "38112283009",
+  "run_number": "12",
+  "run_url": "https://github.com/IKKIsseff/Ikyy/actions/runs/38112283009",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -42,16 +42,16 @@
   },
   "grafis": {
     "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
-    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
-    "mesa": "26.2.4",
-    "mode": "software",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "dir": "C:\\XyRDP\\grafis",
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "mesa": "26.2.4",
     "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
     "debug": "",
-    "adapters": "Microsoft Hyper-V Video"
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
+    "mode": "software",
+    "adapters": "Microsoft Hyper-V Video",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)"
   },
   "extras": {
     "lightshot": "skip",
@@ -64,8 +64,8 @@
   },
   "akses": {
     "tailscale": {
-      "status": "failed",
       "note": "Installer Tailscale gagal, exit 1603",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
@@ -73,5 +73,5 @@
     },
     "mode": "tailscale"
   },
-  "stopped_at": "2026-10-11T04:37:12Z"
+  "stopped_at": "2026-10-11T04:44:41Z"
 }
