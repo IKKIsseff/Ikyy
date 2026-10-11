@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "rdpfree-17",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -66,7 +66,11 @@
     "mode": "tailscale",
     "tailscale": {
       "note": "Installer Tailscale gagal, exit 1603",
-      "status": "failed"
+      "status": "failed",
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -100,5 +104,6 @@
     "runner": "github",
     "os": "Microsoft Windows Server 2022 Datacenter"
   },
-  "heartbeat_at": "2026-10-11T11:05:20.7471727Z"
+  "heartbeat_at": "2026-10-11T11:05:20.7471727Z",
+  "stopped_at": "2026-10-11T11:09:39Z"
 }
