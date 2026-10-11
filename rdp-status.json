@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-6",
+  "hostname": "rdpfree-7",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T03:34:31Z",
-  "expires_at": "2026-10-11T09:29:31Z",
+  "started_at": "2026-10-11T03:44:55Z",
+  "expires_at": "2026-10-11T09:39:55Z",
   "duration_menit": 355,
-  "run_id": "38108594925",
-  "run_number": "6",
-  "run_url": "https://github.com/IKKIsseff/Ikyy/actions/runs/38108594925",
+  "run_id": "38109129974",
+  "run_number": "7",
+  "run_url": "https://github.com/IKKIsseff/Ikyy/actions/runs/38109129974",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -42,16 +42,16 @@
   },
   "grafis": {
     "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
-    "mesa": "26.2.4",
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
     "mode": "software",
+    "mesa": "26.2.4",
     "dir": "C:\\XyRDP\\grafis",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
     "adapters": "Microsoft Hyper-V Video",
-    "debug": "",
-    "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat."
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
+    "debug": ""
   },
   "extras": {
     "lightshot": "skip",
@@ -65,7 +65,7 @@
   "akses": {
     "tailscale": {
       "status": "failed",
-      "note": "Isi secret TAILSCALE_AUTH_KEY terlebih dahulu.",
+      "note": "Installer Tailscale gagal, exit 1603",
       "ip": "",
       "magicdns": "",
       "hostname": "",
@@ -73,5 +73,5 @@
     },
     "mode": "tailscale"
   },
-  "stopped_at": "2026-10-11T03:35:15Z"
+  "stopped_at": "2026-10-11T03:45:39Z"
 }
